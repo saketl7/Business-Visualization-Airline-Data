@@ -21,8 +21,8 @@ from jupyter_dash import JupyterDash
 import plotly.express as px
 
 # Create a dash application
-app = JupyterDash(__name__)
-JupyterDash.infer_jupyter_proxy_config()
+app = Dash(__name__)
+server = app.server
 
 # Read the airline data into pandas dataframe
 airline_data =  pd.read_csv('https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-DV0101EN-SkillsNetwork/Data%20Files/airline_data.csv', encoding = "ISO-8859-1",

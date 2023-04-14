@@ -7,10 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1PNuIxTj7SC4-bx2yAe6SaLVTzCxvWuG_
 """
 
-!pip install dash
-
-!pip install jupyter_dash
-
 # Import required libraries
 import pandas as pd
 import dash
